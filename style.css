@@ -1,0 +1,116 @@
+
+body{
+    background-image: url('https://th.bing.com/th/id/R.739cc48380494e00d316463c010aa0de?rik=pBdYDAvBCSZ51Q&riu=http%3a%2f%2f4.bp.blogspot.com%2f-zqFjKe8MJfk%2fUY1TzVHVQJI%2fAAAAAAAAAcA%2f4S6wBbsruWg%2fs1600%2fNature%2bScenery%2bWallpapers31.jpg&ehk=StAGI0rFFAg0%2fLiiO9q39bf0lTuByFty9Rgu1C4p7BI%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    padding: 0;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#form-div{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 150px 20px;
+    width: 500px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+label{
+    font-weight: bold;
+}
+
+input,
+textarea{
+    margin: 15px 0;
+}
+
+p, 
+input[type="text"], 
+input[type="number"], 
+textarea, 
+form{
+    width: 360px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+p,
+form{
+    margin: auto;
+}
+
+input[type="submit"]{
+    display: block;
+    background-color: blueviolet;
+    color: white;
+    margin: auto;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.vertical-menu {
+    width: 200px;
+    height: 2000px;
+    overflow-y: auto;
+  }
+  
+  .vertical-menu a {
+    background-color: #34495e;
+    color: aliceblue;
+    display: block;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #5e7c99;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #009dc0;
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+  #infoabout{
+    background-color: rgb(255, 227, 176);
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    padding: 70px;
+    text-align: justify;
+  }
+
+  img{
+    border-radius: 10px;
+    padding: 6px 3px;
+    height: 15px;
+    width: 250px;
+    text-align: center;
+  }
+
+  p{
+    font-size: 15px;
+  }
+
+  #second-form{
+    float: right;
+    padding: 50px 115px;
+    width: 70%;
+    height: 300px;
+  }
+  .vertical-menu{
+    float: left;
+    width: 150px;
+    height: 400px;
+    padding: 10px;
+  }
